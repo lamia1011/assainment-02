@@ -67,7 +67,7 @@ font-size: 56px;
 font-weight: 700;
 line-height: 61px;
 }
-.pragraph{
+.paragraph{
  color: rgb(17, 17, 17);
 font-size: 20px;
 font-weight: 400;
@@ -98,11 +98,19 @@ font-weight: 700;
 line-height: 57.5px;
 }
 .middle-content{
-    padding:80px;
+    padding-top:80px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 30px;
+   
+}
+.middle-content:last-of-type {
+    margin-top: 20px;
+    gap: 10px; 
+
 }
 .kinder{
+
 padding-top: 130px;    
 text-align: center;  
 position: relative;
@@ -136,6 +144,7 @@ line-height: 28.3px;
    line-height: 28.3px;
 }
 .Elementary{   
+    justify-content: space-evenly;
     padding-top: 130px;    
     text-align: center;  
     position: relative;
@@ -174,11 +183,19 @@ background: linear-gradient(180.00deg, rgb(111, 73, 159),rgba(255, 255, 255, 0) 
     line-height: 28.3px;
 }
 .btn-circle{
+    
+    border: none;
     border-radius: 30px ;
     position: relative;
 width: 60px;
 height: 60px;
 background: rgb(254, 163, 1);
+color: rgb(255, 255, 255);
+font-family: Font Awesome 5 Free;
+font-size: 24px;
+font-weight: 900;
+line-height: 24px;
+
 
 }
 @media screen and (max-width:576) {
