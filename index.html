@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kindergarten Website</title>
     <link rel="stylesheet" href="styles.css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body class="quicksand-uniquifier">
     <header>
         <nav class="display-flex ">
@@ -20,52 +22,129 @@
                     <li class="admission">Admission</li>
                 </ul>
                 <button class="btn-primary">Contact</button>
+                <i id="icon" class="fa fa-bars" aria-hidden="true"></i>
             </div>
+
         </nav>
         <!-- banner section -->
         <div class="display-flex banner">
             <div>
-            <h1 class="banner-font"><span class="home">Empowering<br></span> students from small<br> age <span class="about">towards vision</span></h1>
-            <p class="paragraph">With the courage, Confidence, Creativity and Compassion to make<br> their Unique Contribution </p> 
-            <button class="btn-secondary">Enroll Now</button>
+                <img class="display-none" src="assets/hero-kids.png" alt="">
+                <h1 class="banner-font"><span class="home">Empowering<br></span> students from small<br> age <span
+                        class="about">towards vision</span></h1>
+                <p class="paragraph">With the courage, Confidence, Creativity and Compassion to make<br> their Unique
+                    Contribution </p>
+                <button class="btn-secondary">Enroll Now</button>
+            </div>
+            <img src="assets/hero-kids.png" alt="">
         </div>
-            <img class="" src="assets/hero-kids.png" alt="">
-        </div>  
-    
-    <div class="middle">
-          <h3 class="middle-header">Standard Curriculum</h3>
-          <div class="middle-content">
-            <section  class="kinder">
-          <img src="assets/kinder.png" alt="">
-          <h5 class="img-heading">Kinder (3-6) Years</h5>
-          <p class="img-p">Cum sociis natoque penatibus et magnis
-            dis parturient montes, nascetur ridiculus
-            mu sdis parturient</p>
-             <a class="link" href="">Read More</a>
+        <!-- middle section -->
+        <div class="middle">
+            <h3 class="middle-header">Standard Curriculum</h3>
+            <div class="middle-content">
+                <section class="kinder">
+                    <img src="assets/kinder.png" alt="">
+                    <h5 class="img-heading">Kinder (3-6) Years</h5>
+                    <p class="img-p">Cum sociis natoque penatibus et magnis
+                        dis parturient montes, nascetur ridiculus
+                        mu sdis parturient</p>
+                    <a class="link" href="">Read More</a>
+                </section>
+                <section class="Elementary">
+                    <img src="assets/elementary.png" alt="">
+                    <h5 class="img-heading">Elementary School</h5>
+                    <p class="img-p">Cum sociis natoque penatibus et magnis
+                        dis parturient montes, nascetur ridiculus
+                        mu sdis parturient</p>
+                    <a class="link2" href="">Read More</a>
+                </section>
+                <section class="year">
+                    <img src="assets/middle.png" alt="">
+                    <h5 class="img-heading">Middle (10-16) Years</h5>
+                    <p class="img-p">Cum sociis natoque penatibus et magnis
+                        dis parturient montes, nascetur ridiculus
+                        mu sdis parturient</p>
+                    <a class="link3" href="">Read More</a>
+                </section>
+            </div>
+            <div class="middle-content">
+                <button class="btn-circle">
+                    < </button>
+                        <button class="btn-circle"> > </button>
+            </div>
+        </div>
+        <!-- last section> -->
+        <section>
+            <div class="our-stories">
+                <h2 class="stories-header">Our Stories</h2>
+                <div class="stories-grid">
+                    <div class="story-card large ">
+                        <img src="assets/story-1.png" alt="Story 1">
+                        <div class="story-content">
+                            <span class="story-date">November 19, 2019</span>
+                            <h3>A fun toddler coloring training on<br> classroom</h3>
+                            <p>Beautiful branding for changes by Never Now in Australia.<br> Changes is a platform for
+                                open discussion in an inclusive and collaborative environment, providing the...</p>
+                        </div>
+                    </div>
+                    <div class="small-stroy">
+                        <img src="assets/story-2.png" alt="">
+                        <h4 class="story-content1">Find out if a school fits the<br>family’s needs</h4>
+                        <div class="small-stroy">
+                            <img src="assets/story-4.png" alt="">
+                            <h4 class="story-content1">Classroom management
+                                <br> techniques for new tutors
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="small-stroy">
+                        <img src="assets/story-3.png" alt="">
+                        <h4 class="story-content1">Summer math & literacy
+                            <br> centres for kids
+                        </h4>
+                        <div class="small-stroy">
+                            <img src="assets/story-5.png" alt="">
+                            <h4 class="story-content1">Conversation rhymes
+                                <br> improve kids listening
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="button-container">
+                    <button class="btn-secondary">View All</button>
+                </div>
+            </div>
+            <!-- footer section -->
+            <footer class="footer">
+                <div class="footer-logo">
+                    <h1 class="logo-text">
+                        <img src="assets/logo.png" alt="Logo"> Kids<br> Education
+                    </h1>
+                    <p>Pizza ipsum dolor meat lovers buffalo. <br>Deep dolor roll melted bacon Bianca pan <br>bacon
+                        pineapple Aussie. Mayo rib sauce <br>Hawaiian meatball.</p>
+                </div>
+                <div>
+                    <h3>About School</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Facilities</a></li>
+                        <li><a href="#">Admission</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Keep In Touch</h3>
+                    <div class="social-icons">
+                        <img src="assets/fb.png" alt="">
+                        <img src="assets/dribble.png" alt="">
+                        <img src="assets/twitter.png" alt="">
+                        <img src="assets/google+.png" alt="">
+                    </div>
+                </div>
+            </footer>
+
         </section>
-          <section class="Elementary">
-            <img src="assets/elementary.png" alt="">
-            <h5 class="img-heading">Elementary School</h5>
-          <p class="img-p">Cum sociis natoque penatibus et magnis
-            dis parturient montes, nascetur ridiculus
-            mu sdis parturient</p>
-             <a class="link2" href="">Read More</a>
-          </section>
-         <section class="year">
-            <img src="assets/middle.png" alt="">
-            <h5 class="img-heading">Middle (10-16) Years</h5>
-          <p class="img-p">Cum sociis natoque penatibus et magnis
-            dis parturient montes, nascetur ridiculus
-            mu sdis parturient</p>
-             <a class="link3" href="">Read More</a>
-         </section>
-        </div>
-        <div class="middle-content">
-            <button class="btn-circle"> < </button>
-            <button class="btn-circle"> > </button>
-        </div>
-        
-    </div>
-</header>
+    </header>
 </body>
+
 </html>
